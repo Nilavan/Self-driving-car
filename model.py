@@ -62,7 +62,7 @@ params = {'dim': (66, 200, 3),
 # Generators
 training_generator = DataGenerator(partition["train"], labels, **params)
 validation_generator = DataGenerator(partition["validation"], labels, **params)
-'''
+
 model = build_model()
 model.compile(optimizer='adam', loss="mse")
 
@@ -76,4 +76,3 @@ model.fit_generator(generator=training_generator, epochs=10,
 
 # Save trained model
 model.save('save/model.h5')
-'''
