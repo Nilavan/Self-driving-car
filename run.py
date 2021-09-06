@@ -1,11 +1,13 @@
 from model import build_model, checkpoint_path, ys
 import cv2
 from tensorflow.keras.preprocessing.image import img_to_array
+# from tensorflow.keras.models import load_model
 
 model = build_model()
 model.compile(optimizer='adam', loss="mse")
 
 model.load_weights(filepath=checkpoint_path)
+# model.save(filepath='save/model1.h5')
 
 wheel = cv2.imread('steering_wheel_image.jpg')
 
