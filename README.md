@@ -12,10 +12,13 @@ The dataset consists of 45,406 images from a camcorder in a real car ride. The d
 
 ## The model
 
-This project is a keras implementation of this [Nvidia paper's](https://arxiv.org/pdf/1604.07316.pdf) DAVE-2 model (Architecture below).
+This project is a keras implementation of DAVE-2 model from this [Nvidia paper](https://arxiv.org/pdf/1604.07316.pdf).
 
 <br>
-<p align="center"><img src="dave2.png" width=40%/></p>
+<p align="center">
+  <img src="dave2.png" width=40%/><br>
+  Model architecture
+</p>
 
 ## Demo
 <br>
